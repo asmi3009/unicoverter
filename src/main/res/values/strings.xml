@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"><b><u>UniConvert</u></b></string>
+    <string name="enter_the_length">Enter the length</string>
+    <string name="enter_the_length_here">Enter the length here</string>
+    <string name="items">Items</string>
+    <string name="enter_the_weight_here">Enter the weight here</string>
+    <string name="enter_the_weight">Enter the weight</string>
+    <string name="convert_to">Convert to</string>
+    <string name="convert">Convert</string>
+</resources>

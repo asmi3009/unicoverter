@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/uni12"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:padding="15sp"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:text="@string/enter_the_length" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_the_length_here"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="5sp"
+            android:importantForAutofill="no"
+            android:textColorHint="#0000FF"
+            android:layout_marginBottom="20sp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/snipper"
+            android:padding="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/convert_to"
+            android:fontFamily="@font/abhaya_libre_semibold"
+            android:textSize="20sp"
+            android:layout_marginEnd="20sp"
+            android:padding="15sp"
+            android:layout_marginStart="20sp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:id="@+id/spinnerconvertlength"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lenconvernt"
+            android:text="@string/convert"
+            android:textSize="20sp"
+            android:fontFamily="@font/abhaya_libre_semibold"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/lengthtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_marginEnd="20sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:id="@+id/textViewweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:text="@string/enter_the_weight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextweight"
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_the_weight_here"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="5sp"
+            android:importantForAutofill="no"
+            android:textColorHint="#0000FF"
+            android:layout_marginBottom="20sp"
+            android:inputType="number"
+            tools:ignore="TouchTargetSizeCheck" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/snipperweight"
+            android:padding="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/convert_to"
+            android:fontFamily="@font/abhaya_libre_semibold"
+            android:textSize="20sp"
+            android:layout_marginEnd="20sp"
+            android:padding="15sp"
+            android:layout_marginStart="20sp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:id="@+id/spinnerconvertweight"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/convert"
+            android:textSize="20sp"
+            android:id="@+id/weightconvern"
+            android:fontFamily="@font/abhaya_libre_semibold"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/weighttv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:layout_marginEnd="20sp"
+        android:fontFamily="@font/abhaya_libre_semibold"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"/>
+
+
+</LinearLayout>
